@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20150505004704) do
 
-  create_table "animes", force: :cascade do |t|
+  create_table "mangas", force: :cascade do |t|
     t.string   "title"
     t.string   "manga_slug"
     t.datetime "created_at", null: false

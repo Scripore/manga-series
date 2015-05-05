@@ -1,0 +1,9 @@
+<h1>Over <%= number_with_delimiter(@mangas.count) %> Mangas Indexed.</h1>
+
+<% @mangas.each do |manga| %>
+  <%= link_to(manga.title, "/#{manga.manga_slug}/show")%><br>
+<%end%>
+
+
+
+

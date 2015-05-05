@@ -1,6 +1,6 @@
-class CreateAnimes < ActiveRecord::Migration
+class CreateMangas < ActiveRecord::Migration
   def change
-    create_table :animes do |t|
+    create_table :mangas do |t|
       t.string :title
       t.string :manga_slug
       t.timestamps null: false

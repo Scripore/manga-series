@@ -8,7 +8,7 @@ Put that key in you application.yml file like so;
 MASHAPE_KEY: "#############################"
 
 
-Run 'rake seed:populate_anime_titles' in terminal. 
+Run 'rake seed:populate_manga_titles' in terminal. 
 
 
 
