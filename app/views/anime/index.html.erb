@@ -1,3 +1,5 @@
+<h1>Over <%= number_with_delimiter(@animes.count) %> Animes Indexed.</h1>
+
 <% @animes.each do |anime| %>
   <%= anime.title %><br>
 <%end%>
