@@ -2,9 +2,13 @@ source 'https://rubygems.org'
 
 
 gem 'figaro'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.4'
 gem 'devise'
 gem 'unirest'
+gem 'therubyracer'
+gem 'twitter-bootstrap-rails'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
