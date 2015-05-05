@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20150505004704) do
 
   create_table "animes", force: :cascade do |t|
     t.string   "title"
-    t.integer  "manga_id"
+    t.string   "manga_slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
