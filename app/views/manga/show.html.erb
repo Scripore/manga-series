@@ -1,1 +1,3 @@
-<%= @response.inspect %>
+<% @response.each do |key, value|%>
+  <%= key.titleize %><br><%= value%><br><br>
+<% end %>
