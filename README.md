@@ -4,6 +4,7 @@
 In your terminal, enter in 'figaro install'.
 Now go to https://www.mashape.com/doodle/manga-scraper and get your API key.
 Put that key in you application.yml file like so;
+
 MASHAPE_KEY: "#############################"
 
 
